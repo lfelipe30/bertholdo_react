@@ -8,3 +8,24 @@
 img{
     height: 400px;
 }
+
+.carousel h5{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.carousel div.carousel-caption{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    align-items: center;
+    color: #fff;
+}
+
+
+.carousel div.carousel-caption button.btn.btn-dark{
+    margin-top: 15px;
+    background-color:  #ffdd8b;
+    border: 0px;
+    color: black;
+}

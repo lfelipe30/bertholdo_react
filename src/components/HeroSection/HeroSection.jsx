@@ -4,11 +4,12 @@ import Slider from "./Carousel/Carousel"
 
 const HeroSection = () => {
    return (                  
-
+      <>
          <Container>
             <Slider />
             <Cards />
          </Container>
+      </>
     
    );
 };

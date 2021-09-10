@@ -1,0 +1,17 @@
+.cardsContainer .col{
+    padding: 30px;
+    background-color:  #231f20;
+    text-align: center;
+    color:  #ffdd8b;
+    border-right: 1px solid #0f0d0e;
+}
+
+.cardsContainer .row{
+    background-color: black;
+}
+
+.cardsContainer button.btn.btn-dark{
+    border: 2px solid white;
+}
+
+

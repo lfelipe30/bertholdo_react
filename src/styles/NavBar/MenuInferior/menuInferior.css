@@ -1,0 +1,24 @@
+.menuInferiorDivPai {
+   display: flex;
+   margin-top: 18px;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.menuInferiorDivPai h1 {
+   display: inline-block;
+   margin-right: 200px;
+   margin-bottom: 0;
+   font-size: 2.5rem;
+   color: white;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+.menuInferiorDivPai a:last-child {
+   margin-right: 0;
+}
+
+.menuInferiorDivPai svg {
+   color: white;
+}

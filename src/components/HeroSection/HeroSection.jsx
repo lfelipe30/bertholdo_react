@@ -1,12 +1,15 @@
 import { Container } from "react-bootstrap";
 import Cards from "./Cards/Cards";
+import Slider from "./Carousel/Carousel"
 
 const HeroSection = () => {
-   return (
-      <Container>
-         <h1>Hero Section</h1>
-         <Cards />
-      </Container>
+   return (                  
+
+         <Container>
+            <Slider />
+            <Cards />
+         </Container>
+    
    );
 };
 

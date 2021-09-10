@@ -1,5 +1,6 @@
 .menuSuperiorDivPai {
    text-align: right;
+   background-color:  #c20102;
 }
 
 .menuSuperiorDivPai p {
@@ -7,11 +8,12 @@
    margin: 0;
    color: white;
    text-transform: uppercase;
-   font-size: 1rem;
+   font-size: 0.7rem;
 }
 
 .menuSuperiorDivPai span {
    margin: 0 20px;
+   color: #fff;
 }
 
 .menuSuperiorDivPai p > svg {
@@ -20,4 +22,13 @@
    position: relative;
    top: -1px;
    margin-right: 20px;
+}
+
+.menuSuperiorDivPai > a{
+   color: yellow;
+   font-size: 0.7rem;
+}
+
+.menuSuperiorDivPai > a:last-child{
+   margin-right: 125px;
 }

@@ -3,6 +3,9 @@
    margin-top: 18px;
    justify-content: space-between;
    align-items: center;
+   background-color:  #fe0000;
+   color: #fff;
+   padding-bottom: 30px;
 }
 
 .menuInferiorDivPai h1 {
@@ -13,6 +16,7 @@
    color: white;
    text-transform: uppercase;
    font-weight: bold;
+   text-decoration: none;
 }
 
 .menuInferiorDivPai a:last-child {
@@ -21,4 +25,13 @@
 
 .menuInferiorDivPai svg {
    color: white;
+}
+
+#basic-nav-dropdown{
+   color: #fff;
+}
+
+.menuInferiorDivPai a{
+   color: #fff;
+   text-decoration: none;
 }

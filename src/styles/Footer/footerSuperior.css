@@ -1,0 +1,8 @@
+.footerSuperior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C1F21;
+    color: #fff;
+    padding: 100px;
+}

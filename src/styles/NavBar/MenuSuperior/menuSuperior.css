@@ -27,6 +27,7 @@
 .menuSuperiorDivPai > a{
    color: yellow;
    font-size: 0.7rem;
+   text-decoration: none;
 }
 
 .menuSuperiorDivPai > a:last-child{

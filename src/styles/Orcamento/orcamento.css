@@ -1,0 +1,10 @@
+.orcamento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F8FF;
+}
+
+.orcamento .detalheOrcamento{
+    margin-left: 60px;
+}

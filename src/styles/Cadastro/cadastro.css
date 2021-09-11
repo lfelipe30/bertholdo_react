@@ -1,0 +1,22 @@
+.cadastro{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.cadastro .texto{
+    margin: 100px;
+}
+
+.cadastro .form{
+    margin: 100px;
+    color: #fff;
+}
+
+.cadastro .texto{
+    color: #fff;
+}
+
+.cadastro .form .btn{
+    width: 400px;
+}

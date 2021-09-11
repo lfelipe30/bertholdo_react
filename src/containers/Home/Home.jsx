@@ -1,37 +1,23 @@
 import HeroSection from "../../components/HeroSection/HeroSection";
 import Produtos from "../../components/Produtos/Produtos";
+import { Container } from "react-bootstrap";
+import Orcamento from '../../components/Orcamento/Orcamento'
+import Cadastro from '../../components/Cadastro/Cadastro'
+import FooterSuperior from '../../components/Footer/FooterSuperior'
 
 const Home = () => {
    return (
-      <>
+      <> 
          <HeroSection />
-         <Produtos />
+         <Container>
+            <Produtos />
+            <Orcamento />
+            <Cadastro />
+            <FooterSuperior />
+         </Container>
       </>
    );
 };
 
 export default Home;
 
-// import { Container, Carousel, Row, Col } from "react-bootstrap";
-// <Carousel>
-//    <Carousel.Item>
-//       <Container>
-//          <Row>
-//             <Col>qudrado</Col>
-//             <Col>qudrado</Col>
-//             <Col>qudrado</Col>
-//             <Col>qudrado</Col>
-//          </Row>
-//       </Container>
-//    </Carousel.Item>
-//    <Carousel.Item>
-//       <Container>
-//          <Row>
-//             <Col>qudrado</Col>
-//             <Col>qudrado</Col>
-//             <Col>qudrado</Col>
-//             <Col>qudrado</Col>
-//          </Row>
-//       </Container>
-//    </Carousel.Item>
-// </Carousel>;

@@ -1,0 +1,53 @@
+
+.produto .carousel.slide{
+    background-color: #ebebeb;
+    padding: 10px;
+}
+
+.produto img{
+    width: 230px;
+    height: 250px;
+}
+
+.produto{
+    overflow: hidden;
+    background-color: #ebebeb;
+}
+
+.produto .col{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.produto .nomeProduto{
+    padding-top: 5px;
+    font-size: 0.9rem;
+}
+
+.produto .categoriaProduto{
+   font-size: 0.8rem;
+}
+
+.produto .desconto{
+    font-size: 0.6rem;
+}
+
+.produto .precoProduto{
+    display: flex;
+    padding-bottom: 0px;
+}
+
+.produto .precoAntigo{
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+
+.produto div.col{
+    display: flex;
+}
+
+.produto h3{
+    text-align: center;
+    padding: 40px;
+}

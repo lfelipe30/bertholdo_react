@@ -14,7 +14,7 @@ img{
     margin-bottom: 50px;
 }
 
-.carousel div.carousel-caption{
+.carousel .carousel-caption{
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
@@ -23,7 +23,7 @@ img{
 }
 
 
-.carousel div.carousel-caption button.btn.btn-dark{
+.carousel .carousel-caption .btn.btn-dark{
     margin-top: 15px;
     background-color:  #ffdd8b;
     border: 0px;

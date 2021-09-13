@@ -1,4 +1,4 @@
-.cadastro{
+.cadastro .container{
     display: flex;
     justify-content: space-between;
     background-color: black;
@@ -6,6 +6,8 @@
 
 .cadastro .texto{
     margin: 100px;
+    font-size: 2rem;
+    color: #fff;
 }
 
 .cadastro .form{
@@ -13,10 +15,10 @@
     color: #fff;
 }
 
-.cadastro .texto{
-    color: #fff;
-}
-
 .cadastro .form .btn{
     width: 400px;
+}
+
+.cadastro .texto span{
+  color: rgb(233, 19, 19);
 }

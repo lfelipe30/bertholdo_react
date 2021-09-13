@@ -5,7 +5,8 @@ import { BsSearch } from "react-icons/bs";
 const MenuInferior = () => {
    return (
       <div className="menuInferiorDivPai">
-         <h1>Logotipo</h1>
+      <div className="container">
+            <h1>LOGOMARCA</h1>
          <a href="/">Quem somos</a>
          <NavDropdown title="Gondolas" id="basic-nav-dropdown">
             <NavDropdown.Item href="/">Dropdown 1</NavDropdown.Item>
@@ -23,6 +24,7 @@ const MenuInferior = () => {
          <a href="/">
             <BsSearch />
          </a>
+      </div>
       </div>
    );
 };

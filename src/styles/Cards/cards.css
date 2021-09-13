@@ -10,8 +10,9 @@
     background-color: black;
 }
 
-.cardsContainer button.btn.btn-dark{
+.cardsContainer .btn.btn-dark{
     border: 2px solid white;
 }
+
 
 

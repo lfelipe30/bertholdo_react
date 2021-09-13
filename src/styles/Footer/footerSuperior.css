@@ -1,8 +1,39 @@
 .footerSuperior{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #1C1F21;
     color: #fff;
-    padding: 100px;
+    padding-left: 100px;
+    font-size: 0.7rem;
+    height: 300px;
+}
+
+.footerSuperior .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 200px;
+}
+
+.redesSociais{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contato{
+  padding-bottom: 10px;
+}
+
+.redesSociais a > svg{
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    color: red;
+}
+
+.container p > svg{
+    height: 30px;
+}
+
+.tel{
+    color: yellow;
+    margin-right: 10px;
 }

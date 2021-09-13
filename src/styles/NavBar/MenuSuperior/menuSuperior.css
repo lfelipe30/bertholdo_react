@@ -1,9 +1,10 @@
-.menuSuperiorDivPai {
+.menuSuperiorDivPai .container{
    text-align: right;
    background-color:  #c20102;
+   padding-left: 100px;
 }
 
-.menuSuperiorDivPai p {
+.menuSuperiorDivPai .container p {
    display: inline-block;
    margin: 0;
    color: white;
@@ -11,12 +12,12 @@
    font-size: 0.7rem;
 }
 
-.menuSuperiorDivPai span {
+.menuSuperiorDivPai .container span {
    margin: 0 20px;
    color: #fff;
 }
 
-.menuSuperiorDivPai p > svg {
+.menuSuperiorDivPai .container p > svg {
    color: white;
    font-size: 1.7rem;
    position: relative;
@@ -24,12 +25,12 @@
    margin-right: 20px;
 }
 
-.menuSuperiorDivPai > a{
+.menuSuperiorDivPai .container > a{
    color: yellow;
    font-size: 0.7rem;
    text-decoration: none;
 }
 
-.menuSuperiorDivPai > a:last-child{
+.menuSuperiorDivPai .container > a:last-child{
    margin-right: 125px;
 }
